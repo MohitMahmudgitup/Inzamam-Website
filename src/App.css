@@ -1,0 +1,44 @@
+/* font */
+@font-face {
+    font-family: f1;
+    src: url(./fonts/60e4249bd8f95b37bea9f160_RoslindaleDisplayCondensed-Regular.woff2);
+}
+@font-face {
+    font-family: f2;
+    src: url(./fonts/61eaf216c5a1013af31b58ec_Mint\ Grotesk\ -\ Bold.woff2);
+}
+@font-face {
+    font-family: f3;
+    src: url(./fonts/61eaf39e1d62ff0d83071705_Mint\ Grotesk\ -\ Medium.woff2);
+}
+
+.f1{
+    font-family: f1;
+}
+
+.castom-c-a3a3a3{
+    color: #a3a3a3;
+}
+.castom-c-hover{
+    background-color: #161616;
+}
+.castom-bg-111{
+    background-color: #111;
+}
+.castom-bg-3d3d3d71{
+    background-color: #0000001c;
+}
+.castom-bg-262626{
+    background-color:#262626 ;
+}
+.active{
+    color: rgb(214, 214, 214);
+    font-weight: 500;
+    background-color:#363636 
+}
+.glassColor{
+    background: rgba(255, 255, 255, 0);
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
