@@ -78,9 +78,9 @@ section1()
   <main className="main text-white">
     <section className='box-image  py-28 md:px-28 h-full flex justify-between items-center flex-col  '>
       <div className='w-full   md:w-[50%] flex justify-center items-center flex-col mb-3 md:mb-0  px-5 md:px-0'>
-        <h1  className='f1 capitalize leading-[3vw] z-40 text-center mt-16 text-6xl md:text-9xl castom-font'>FullStack </h1>
-        <h1  className='f1 capitalize leading-[3vw] z-40 text-center text-6xl md:text-9xl castom-font '>web</h1>
-        <h1 className='f1 capitalize leading-[3vw] text-center text-6xl md:text-9xl castom-font '>developer</h1>
+        <h1  className='f1 capitalize cursor-default leading-[3vw] z-40 text-center mt-16 text-6xl md:text-9xl castom-font'>FullStack </h1>
+        <h1  className='f1 capitalize cursor-default leading-[3vw] z-40 text-center text-6xl md:text-9xl castom-font '>web</h1>
+        <h1 className='f1 capitalize cursor-default leading-[3vw] text-center text-6xl md:text-9xl castom-font '>developer</h1>
         <div className=" w-full h-full md:h-96 image py-4 flex justify-center items-center">
           <div className=' w-96  p-2  md:p-0 rounded-xl translate-y-1/4'>
             <img className='rounded-xl bottom-0' src={Image}/>
@@ -91,7 +91,7 @@ section1()
     <section>
     <div className="longImageBox w-full md:h-96 flex  items-center ">
       <div className="longImage flex  w-[100vw] h-72 -rotate-3 ">
-          {/* <img className="rounded-md" src="https://data.terabox.com/thumbnail/2c0e7c858qc3a56d9d7f08ce43fdf100?fid=4401765754200-250528-714923071265811&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-9Dt70%2fbvznORSdQF%2fy%2bo7I85lgk%3d&expires=8h&chkbd=0&chkv=0&dp-logid=559523408526769855&dp-callid=0&time=1723302000&size=c200_u200&quality=100&vuk=4401765754200&ft=image" alt="" srcset="" /> */}
+          <img className="rounded-md" src="https://data.terabox.com/thunpmmbnail/2c0e7c858qc3a56d9d7f08ce43fdf100?fid=4401765754200-250528-714923071265811&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-9Dt70%2fbvznORSdQF%2fy%2bo7I85lgk%3d&expires=8h&chkbd=0&chkv=0&dp-logid=559523408526769855&dp-callid=0&time=1723302000&size=c200_u200&quality=100&vuk=4401765754200&ft=image" alt="" srcset="" />
           <img className="rounded-md m-1" src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/296368077_1075157810066859_8326025953264331840_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeF92TcyfWQqsA7eSuuS4bHuwgZOGOwakbLCBk4Y7BqRsiz6YnsmZhKt1AST1e8qd-9IutlrsmoUKnFI70A_kowl&_nc_ohc=e35pIOWyf3YQ7kNvgEebBnx&_nc_ht=scontent.fcgp27-1.fna&oh=00_AYC7RIwldngZ66_TNESmvrMAPWupaEiWSMUyKJ0qmhpLRw&oe=66C00AF9" alt="" srcset="" />
           <img className="rounded-md m-1" src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/453511877_1514884659427503_966726914622282592_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEAf6umPbcI4iiUqjh3ndeKJgjoOAjrOSkmCOg4COs5KUhzDdb84pW6C2jr1SdE9jbKez0-1hJpIO99MqRXHn7K&_nc_ohc=GyV2u4WHtWQQ7kNvgHQ2jUl&_nc_ht=scontent.fcgp27-1.fna&oh=00_AYAhmJRc1DzrICtdMhuDVPd-9chzWLe1BndX8Kg9ZA-z4w&oe=66BD60D3" alt="" srcset="" />
           <img className="rounded-md m-1" src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/349158330_196577376672987_7261409865566386667_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEMGuOBzlYpMWeBFyqxHeW7BWvIOfcP09YFa8g59w_T1oOkwEuIrfS-fu1GXupuOs3E4S2JNKmb92BX_weLX6Jd&_nc_ohc=1CwRcw2R6EwQ7kNvgG9HYLf&_nc_ht=scontent.fcgp27-1.fna&oh=00_AYCtpvKwbaCnBRMNrP6OW8zP9AEZ8rebLcNaF548d9rsEg&oe=66BD6DBC" alt="" srcset="" />
@@ -123,7 +123,7 @@ section1()
   </section>
   <section>
     <div className="bigtextbox w-full h-[100vh] ">
-      <h1 className="f1 text-[40vw]  text-nowrap -mt-10">SYED MOHIT MAHMUD INZAMAM</h1>
+      <h1 className="f1 text-[40vw] cursor-default text-nowrap -mt-10">SYED MOHIT MAHMUD INZAMAM</h1>
     </div>
     <div className="w-full h-[100vh] ">
 
