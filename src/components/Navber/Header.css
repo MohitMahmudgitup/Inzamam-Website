@@ -1,0 +1,13 @@
+.castom-header{
+    width: 100vw;
+    overflow: hidden;
+}
+
+.navIcon{
+    display: none;
+}
+@media (max-width:800px) {
+    .navIcon{
+        display: block;
+    }
+}

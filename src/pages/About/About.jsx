@@ -1,11 +1,12 @@
 import React from 'react'
 import "../../App.css"
 import video1 from "../../videos/WhatsApp Video 2024-08-13 at 1.01.24 PM.mp4"
+import "./About.css"
 function About() {
   return (
     <main className='text-white'>
       <section className='w-[100%] h-[100vh] flex justify-center items-center'>
-        <div className='w-[90vw] flex justify-center items-center h-[75vh] rounded-2xl overflow-hidden bg-slate-100'>
+        <div className='castom-about w-[90vw] flex justify-center items-center h-[75vh] rounded-2xl overflow-hidden'>
           <h2 className="f1 text-[10vw] absolute">About</h2>
         <video className='w-[90vw] h-[80vh] object-cover' autoPlay loop muted src={video1}></video>
         </div>

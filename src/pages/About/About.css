@@ -1,0 +1,7 @@
+.castom-about{
+    transition: 2s;
+}
+.castom-about:hover{
+    padding: 200px;
+    border-radius: 100px;
+}
