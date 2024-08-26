@@ -1,0 +1,6 @@
+.Animition-img{
+    transition: 1s;
+}
+.Animition-img:hover{
+    transform: scale(.96);
+}

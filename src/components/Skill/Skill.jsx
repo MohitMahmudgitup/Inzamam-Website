@@ -60,10 +60,14 @@ function Skill() {
             <img className = 'skill-img ' src="https://ncarb.github.io/bootstrap/assets/img/bootstrap-stack.png" alt="" />
           </div>
         </a>
-        
         <a href="https://www.mongodb.com/" target='_blank'>
           <div className='castom-skill-item flex justify-center items-center bg-zinc-800 rounded-xl  w-[240px] h-[120px]'>
             <img className = 'skill-img ' src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="" />
+          </div>
+        </a>
+        <a href="https://git-scm.com/" target='_blank'>
+          <div className='castom-skill-item flex justify-center items-center bg-zinc-800 rounded-xl  w-[240px] h-[120px]'>
+            <img className = 'skill-img ' src="https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png" alt="" />
           </div>
         </a>
 

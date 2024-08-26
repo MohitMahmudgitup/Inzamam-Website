@@ -8,7 +8,13 @@
 .castom-nav-item:hover{
     background-color: rgba(128, 128, 128, 0.281);
 }
-
+.castom-navlogo {
+    transition: .77s;
+}
+.castom-navlogo:hover{
+    transform: scale(1.2) rotate(-5deg);
+    /* transform:  rotate(90deg) */
+}
 
 .navIcon{
     display: none;
