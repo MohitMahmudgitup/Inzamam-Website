@@ -1,23 +1,10 @@
 /* font */
-@font-face {
-    font-family: f1;
-    src: url(./fonts/60e4249bd8f95b37bea9f160_RoslindaleDisplayCondensed-Regular.woff2);
-}
-@font-face {
-    font-family: f2;
-    src: url(./fonts/61eaf216c5a1013af31b58ec_Mint\ Grotesk\ -\ Bold.woff2);
-}
-@font-face {
-    font-family: f3;
-    src: url(./fonts/61eaf39e1d62ff0d83071705_Mint\ Grotesk\ -\ Medium.woff2);
-}
+
 html {
     scroll-behavior:smooth;
   }
 
-.f1{
-    font-family: f1;
-}
+
 
 .castom-c-a3a3a3{
     color: #a3a3a3;

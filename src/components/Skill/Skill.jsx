@@ -42,12 +42,28 @@ function Skill() {
         </a>
         <a href="https://redux.js.org/" target='_blank'>
           <div className='castom-skill-item flex justify-center items-center bg-zinc-800 rounded-xl  w-[240px] h-[120px]'>
-            <img className = 'skill-img ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1nMzwva2I5vJbfyuhfQpHYgn3coR6Un6hyA&s" alt="" />
+            <img className = 'skill-img ' src="https://w7.pngwing.com/pngs/724/234/png-transparent-redux-react-javascript-vue-js-single-page-application-others-thumbnail.png" alt="" />
           </div>
         </a>
         <a href="https://nextjs.org/" target='_blank'>
           <div className='castom-skill-item flex justify-center items-center bg-zinc-800 rounded-xl  w-[240px] h-[120px]'>
             <img className = 'skill-img ' src="https://global.discourse-cdn.com/auth0/original/2X/a/ae35edce19e64c53e5d455b22e8a2c82d093d4c9.png" alt="" />
+          </div>
+        </a>
+        <a href="https://tailwindcss.com/" target='_blank'>
+          <div className='castom-skill-item flex justify-center items-center bg-zinc-800 rounded-xl  w-[240px] h-[120px]'>
+            <img className = 'skill-img ' src="https://picperf.io/https://laravelnews.s3.amazonaws.com/images/tailwindcss-1633184775.jpg" alt="" />
+          </div>
+        </a>
+        <a href="https://getbootstrap.com/" target='_blank'>
+          <div className='castom-skill-item flex justify-center items-center bg-zinc-800 rounded-xl  w-[240px] h-[120px]'>
+            <img className = 'skill-img ' src="https://ncarb.github.io/bootstrap/assets/img/bootstrap-stack.png" alt="" />
+          </div>
+        </a>
+        
+        <a href="https://www.mongodb.com/" target='_blank'>
+          <div className='castom-skill-item flex justify-center items-center bg-zinc-800 rounded-xl  w-[240px] h-[120px]'>
+            <img className = 'skill-img ' src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="" />
           </div>
         </a>
 

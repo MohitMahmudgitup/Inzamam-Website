@@ -2,6 +2,13 @@
     width: 100vw;
     overflow: hidden;
 }
+.castom-nav-item{
+    transition: .54s;
+}
+.castom-nav-item:hover{
+    background-color: rgba(128, 128, 128, 0.281);
+}
+
 
 .navIcon{
     display: none;

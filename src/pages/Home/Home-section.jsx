@@ -67,7 +67,7 @@ section1()
 
 
   
-  <main className="main text-white">
+  <main className="main text-blue-50">
     <section className=' box-image py-28 px-0 h-[170vh]  flex justify-between items-center flex-col  '>
       <div className='w-full   md:w-[50%] flex justify-center items-center flex-col mb-3 md:mb-0  px-5 md:px-0'>
         <h1  className='f1 castom-text capitalize cursor-default leading-[3vw] z-40 text-center mt-16 text-6xl md:text-9xl castom-font'>FullStack </h1>
@@ -91,12 +91,12 @@ section1()
           <img className=" w-[90%] md:w-[80%]  rounded-[10px]" src={allImage.pic3} alt="" srcset="" />
         </div>
         <div className="md:w-[50%] flex flex-col items-center">
-          <h5 className="f2 text-lg font-semibold text-center md:text-left px-3 md:px-0 pt-10 md:pt-0 mb-5 ">The unique culture, impressive and almost imposing mountains masked by an open field paved the way for my creative upbringing. This environment allowed my visual sensations to blossom and gave free rein to my artistic inclinations.</h5>
-          <h5 className="f2 text-lg font-semibold text-center md:text-left px-3 md:px-0  mb-5 ">I have always been drawn to artistic mediums that can evoke feelings. So when I picked up a camera for the first time, it truly felt like magic.</h5>
-          <h5 className="f2 text-lg font-semibold text-center md:text-left px-3 md:px-0  mb-5 ">I shared how I perceive my everyday life with others – colorful, calm, yet ever-moving. I never liked to sit there, trying to explain. Instead, I want to show it, visually.</h5>
-          <h5 className="f2 text-lg font-semibold text-center md:text-left px-3 md:px-0  mb-5 ">The hunt for impactful moments sparked my curiosity to venture beyond the horizons and chase it to the edge of the world. As a result, my creative appetite has spread over to other mediums such as filmmaking, film photography, design, podcasting, music, and going on the hunt for the best pancakes on the planet.</h5>
-          <h5 className="f2 text-lg font-semibold text-center md:text-left px-3 md:px-0  mb-5 ">I discovered that extreme conditions and sleepless nights are an inseparable part of capturing striking images. I've learned to adapt and deal with difficult situations. I've lost sleep while laying on cold floors, changed flat tires while baking under the sun, and broke my wallet spending way too much on film rolls. But, I also learned when to hit the brakes and sip a Margarita by the pool.</h5>
-          <h5 className="f2 text-lg font-semibold text-center md:text-left px-3 md:px-0  ">Life never stops being interesting. There is always something that catches my attention, and I never stop freezing moments in time. Perhaps, I thought I would have seen it all one day, but the reality is far from it. More adventures await, and I would love you to venture with me on this journey.</h5>
+          <h5 className="text-lg font-medium text-center md:text-left px-3 md:px-0 pt-10 md:pt-0 mb-5 ">The unique culture, impressive and almost imposing mountains masked by an open field paved the way for my creative upbringing. This environment allowed my visual sensations to blossom and gave free rein to my artistic inclinations.</h5>
+          <h5 className="text-lg font-medium text-center md:text-left px-3 md:px-0  mb-5 ">I have always been drawn to artistic mediums that can evoke feelings. So when I picked up a camera for the first time, it truly felt like magic.</h5>
+          <h5 className="text-lg font-medium text-center md:text-left px-3 md:px-0  mb-5 ">I shared how I perceive my everyday life with others – colorful, calm, yet ever-moving. I never liked to sit there, trying to explain. Instead, I want to show it, visually.</h5>
+          <h5 className="text-lg font-medium text-center md:text-left px-3 md:px-0  mb-5 ">The hunt for impactful moments sparked my curiosity to venture beyond the horizons and chase it to the edge of the world. As a result, my creative appetite has spread over to other mediums such as filmmaking, film photography, design, podcasting, music, and going on the hunt for the best pancakes on the planet.</h5>
+          <h5 className="text-lg font-medium text-center md:text-left px-3 md:px-0  mb-5 ">I discovered that extreme conditions and sleepless nights are an inseparable part of capturing striking images. I've learned to adapt and deal with difficult situations. I've lost sleep while laying on cold floors, changed flat tires while baking under the sun, and broke my wallet spending way too much on film rolls. But, I also learned when to hit the brakes and sip a Margarita by the pool.</h5>
+          <h5 className="text-lg font-medium text-center md:text-left px-3 md:px-0  ">Life never stops being interesting. There is always something that catches my attention, and I never stop freezing moments in time. Perhaps, I thought I would have seen it all one day, but the reality is far from it. More adventures await, and I would love you to venture with me on this journey.</h5>
         </div>
       </div>
     </div>

@@ -56,21 +56,21 @@ function Header() {
           <h1 className='text-4xl md:text-8xl '>Hello World</h1>
         </div>
       </div>  */}
-    <header className="text-white">  
+    <header className="text-blue-50">  
           <div className='castom-header h-16 glassColor fixed z-40  flex px-2 md:px-20 py-5 justify-between items-center'>
             <div className='flex justify-center items-center'>
               
-              <h2 id='Logo' className='px-5 text-xl flex justify-center items-center md:text-2xl cursor-pointer f1 gap-2'><SiCodersrank /> Mohit Mahmud</h2>
+              <h2 id='Logo' className=' px-5 text-xl flex justify-center items-center md:text-2xl cursor-pointer f1 gap-2'><SiCodersrank /> Mohit Mahmud</h2>
             </div>
-            <div className=' hidden md:block w-[22vw] '>
+            <div className=' hidden md:block w-[19.5vw] '>
                 <ul className=' flex justify-evenly items-center'>
-                  <Link to={""}           className='f3 px-5 py-1  text-center font-semibold rounded-full border-[1px] text-[12px] hover:bg-black'>HOME</Link>
-                  <Link to={"/about"}     className='f3 px-5 py-1  text-center font-semibold rounded-full border-[1px] text-[12px]  hover:bg-black'>ABOUT</Link>
-                  <Link to={"/contectUs"} className='f3 px-5 py-1  text-center font-semibold rounded-full border-[1px] text-[12px]  hover:bg-black'>CONTECT US</Link>
+                  <Link to={""}           className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>HOME</Link>
+                  <Link to={"/about"}     className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</Link>
+                  <Link to={"/contectUs"} className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>CONTECT US</Link>
                 </ul>
               </div>
             <div className='navIcon'>
-              <HiOutlineViewList onClick={()=>{setOnClickNav(rightX)}} className='text-white cursor-pointer w-9 h-9'/>
+              <HiOutlineViewList onClick={()=>{setOnClickNav(rightX)}} className=' cursor-pointer w-9 h-9'/>
             </div>
           </div>
            
@@ -78,7 +78,7 @@ function Header() {
 
 
           <div ref={navMove} className='castom-bg-111 left-[400px] md:hidden fixed z-50  w-[100vw] justify-center h-[100vh]  pr:0 md:pr-14 flex items-center'>
-            <IoClose  onClick={()=>{setOnClickNav(leftX)}}  className='text-white cursor-pointer text-5xl absolute top-3 right-[8.9vw]'/>
+            <IoClose  onClick={()=>{setOnClickNav(leftX)}}  className=' cursor-pointer text-5xl absolute top-3 right-[8.9vw]'/>
               <div className=' h-[30vh]  '>
                 <ul className='w-full h-full flex justify-between flex-col text-center'>
                   <NavLink to={""}           className='f1 py-2 px-10  hover:bg-zinc-900  rounded-3xl castom-c-a3a3a3 castom-bg-262626 text-5xl '>Home</NavLink>
