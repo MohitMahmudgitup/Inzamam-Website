@@ -4,14 +4,13 @@
     object-fit: contain;
     mix-blend-mode: color-dodge;
     filter: grayscale(200%); 
-    /* border-radius: 10%; */
 }
 .castom-skill-item{
     transition: .44s;
     cursor: pointer;
 }
 .castom-skill-item:hover{
-    padding: 50px;
+    transform: scale(1.1) rotate(-5deg);
 }
 @media (max-width:1000px) {
     .castom-skill-div{

@@ -1,11 +1,17 @@
 @media (max-width:799px) {
     .castom-footer{
+        width: 100%;
+        /* background-color: aqua; */
         flex-direction: column;
         gap: 40px;
         align-content: center;
         justify-content: center;
     }
     .footer-item{
-        padding: 0px 30px;
+        padding: 0px 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background: #f57777; */
     }
 }

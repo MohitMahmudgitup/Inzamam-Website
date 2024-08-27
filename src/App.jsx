@@ -15,7 +15,7 @@ function App() {
       <main className='w-full min-h-[calc(100vh-160px)] '>
       <Outlet />
       </main>
-      <Footer/>
+    <Footer/>
       <ScrollToTop
         smooth
         style={{
