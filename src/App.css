@@ -22,9 +22,9 @@ html {
     background-color:#262626 ;
 }
 .active{
-    color: rgb(214, 214, 214);
+    color: rgb(223, 227, 255);
     font-weight: 500;
-    background-color:#363636 
+
 }
 .glassColor{
     background: rgba(255, 255, 255, 0);

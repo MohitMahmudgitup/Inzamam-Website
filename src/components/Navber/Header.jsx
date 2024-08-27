@@ -69,14 +69,14 @@ function Header() {
                   <Link to={"/about"}     className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</Link>
                   <Link to={"/contectUs"} className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>CONTECT US</Link>
                   <a href='../../pdf/MohitMahmud.pdf' download="MohitMahmud.pdf">
-                  <div className='f3 p-[10px]  font-medium rounded-full border-[1px] text-[12px]  castom-nav-item'>
-                  <IoCloudDownloadSharp />
-                  </div>
+                    <div className='f3 p-[10px]  font-medium rounded-full border-[1px] text-[12px]  castom-nav-item'>
+                    <IoCloudDownloadSharp />
+                    </div>
                   </a>
                   <a href='https://github.com/MohitMahmudgitup' target='_blank' >
-                  <div className='f3 p-[8px]  font-medium rounded-full border-[1px] text-[12px]  castom-nav-item'>
-                  <FaGithub className='w-4 h-4 '/>
-                  </div>
+                    <div className='f3 p-[8px]  font-medium rounded-full border-[1px] text-[12px]  castom-nav-item'>
+                    <FaGithub className='w-4 h-4 '/>
+                    </div>
                   </a>
                 </ul>
               </div>
@@ -87,15 +87,26 @@ function Header() {
            
 
 
-
-          <div ref={navMove} className='castom-bg-111 left-[400px] md:hidden fixed z-50  w-[100vw] justify-center h-[100vh]  pr:0 md:pr-14 flex items-center'>
+{/* castom-bg-111 */}
+          <div ref={navMove} className='mobile-nav-box left-[540px] md:hidden fixed z-50 justify-center   pr:0  flex items-center'>
             <IoClose  onClick={()=>{setOnClickNav(leftX)}}  className=' cursor-pointer text-5xl absolute top-3 right-[8.9vw]'/>
               <div className=' h-[30vh]  '>
                 <ul className='w-full h-full flex justify-between flex-col text-center'>
-                  <NavLink to={""}           className='f1 py-2 px-10  hover:bg-zinc-900  rounded-3xl castom-c-a3a3a3 castom-bg-262626 text-5xl '>Home</NavLink>
-                  <NavLink to={"/about"}     className='f1 py-2 px-10  hover:bg-zinc-900  rounded-3xl castom-c-a3a3a3 castom-bg-262626 text-5xl '>About</NavLink>
-                  <NavLink to={"/contectUs"} className='f1 py-2 px-10  hover:bg-zinc-900  rounded-3xl castom-c-a3a3a3 castom-bg-262626 text-5xl '>Contact Us</NavLink>
-                  
+                  <NavLink to={""}           className='navkink f1 py-2 px-10    rounded-3xl castom-c-a3a3a3 text-5xl '>Home</NavLink>
+                  <NavLink to={"/about"}     className='navkink f1 py-2 px-10    rounded-3xl castom-c-a3a3a3 text-5xl '>About</NavLink>
+                  <NavLink to={"/contectUs"} className='navkink f1 py-2 px-10    rounded-3xl castom-c-a3a3a3 text-5xl '>Contact Us</NavLink>
+                  <div className=' flex absolute bottom-4 right-3 gap-4 justify-center'>
+                  <a href='../../pdf/MohitMahmud.pdf' download="MohitMahmud.pdf">
+                    <div className='f3 p-[10px]  font-medium rounded-full border-[1px] text-[12px]  castom-nav-item'>
+                    <IoCloudDownloadSharp className='w-6 h-6 ' />
+                    </div>
+                  </a>
+                  <a href='https://github.com/MohitMahmudgitup' target='_blank' >
+                    <div className='f3 p-[10px]  font-medium rounded-full border-[1px] text-[12px]  castom-nav-item'>
+                    <FaGithub className='w-6 h-6 '/>
+                    </div>
+                  </a>
+                  </div>
                 </ul>
               </div>
             </div>

@@ -27,6 +27,19 @@
 .f4{
   font-family: f3;
 }
+@media (max-width:2000px) {
+  hr{
+   display: none;
+  }
+}
+@media (max-width:799px) {
+  hr{
+   display: block;
+  margin: 40px 20px;
+  border:  .1px solid #585858b6;
+
+  }
+}
 
 
 

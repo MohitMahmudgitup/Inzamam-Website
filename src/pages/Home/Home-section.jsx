@@ -77,7 +77,7 @@ section1()
     </section>
     <section className="">
    <Amt/>
-
+    <hr />
     <div className="w-full md:px-32 pt-10 md:pt-28  h-[100%] ">
       <div className="castom-221 flex ">
         <div className="castom-22 flex md:w-[50%] flex-col  ">

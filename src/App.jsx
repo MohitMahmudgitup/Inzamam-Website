@@ -15,6 +15,7 @@ function App() {
       <main className='w-full min-h-[calc(100vh-160px)] '>
       <Outlet />
       </main>
+      <hr />
     <Footer/>
       <ScrollToTop
         smooth

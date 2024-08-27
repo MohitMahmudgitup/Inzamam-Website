@@ -23,6 +23,13 @@
     .castom-nav-items-box{
         width: 30vw;
     }
+    .mobile-nav-box{
+        border: 1px solid rgba(223, 227, 255, 0.589);
+        box-shadow: 0 0 10px rgba(223, 227, 255, 0.274);
+        background-color: rgb(8, 8, 8);
+        overflow: hidden;
+        border-radius: 20px;
+    }
 }
 @media (max-width:1000px) {
     .castom-nav-items-box{
@@ -35,5 +42,30 @@
     }
     .navIcon{
         display: block;
+    }
+    .mobile-nav-box{
+        width: 400px;
+        height: 500px;
+        /* border-radius: 30px; */
+    }
+}
+@media (max-width:500px) {
+    .mobile-nav-box{
+        width: 300px;
+        height: 400px;
+        padding: 0 20px;
+        
+        left: 460px;
+    }
+    .mobile-nav-box ul{
+        justify-content: center; 
+        gap: 10px;
+    } 
+    .mobile-nav-box .navkink{
+        padding: 10px 20px ;
+        border-radius: 10px;
+        margin: 0;
+        font-size: 50px;
+
     }
 }

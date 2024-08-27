@@ -16,7 +16,7 @@ export default function Amt() {
                     scroll: ".longImage ",
                     trigger: ".longImage",
                     start: "top 100%",
-                    scrub:5,
+                    scrub:2,
                     end:"bottom 0%",
                     // markers:true
                   }
