@@ -33,14 +33,14 @@ function ContectUs() {
 
 
   return (
-  <main className='text-white flex flex-wrap'>
-    <div className='w-[50%] h-[100vh] flex justify-center items-center flex-col px-5'>
+  <main className='text-white flex castom-contect'>
+    <div className='castom-contect-left w-[50%] h-[100vh] flex justify-center items-center flex-col px-5'>
       <h1 className="f1 text-[5vw] castom-font">Contact Us</h1>
-      <h1 className="text-[3vw] castom-font">I'd Love To Hear From You.</h1>
-      <h1 className="f2 text-[1.2vw] castom-font text-center">In case of any queries you can send your queries by following the below details!</h1>
-          <h1 className='text-[3vw] castom-font' >{result}</h1>
+      <h2 className="text-[3vw] castom-font">I'd Love To Hear From You.</h2>
+      <h2 className="f2 text-[1.2vw] castom-font text-center">In case of any queries you can send your queries by following the below details!</h2>
+          <h2 className='text-[3vw] castom-font' >{result}</h2>
     </div>
-    <div className='w-[50%] flex justify-center items-center '>
+    <div className='castom-contect-right w-[50%] flex justify-center items-center '>
         <form className='flex flex-col gap-4' onSubmit={onSubmit}>
         <input type="hidden" name="access_key" value="2c8f0a6d-4379-42ab-b407-9dc76af6a591"/>
         <div className='flex items-center gap-2'>
@@ -58,7 +58,6 @@ function ContectUs() {
             <h1 className='f2 text-sm '>Message</h1>
           </div>
           <textarea className='w-80 py-2 outline-none border border-b-1 bg-black h-28 rounded-xl pl-3  ' name="message" required />
-          {/* <button className="border border-1 border-white rounded-lg py-2 hover:bg-zinc-800" >Submit Form</button> */}
           <button class="btn-26" type="submit"><span>Submit Form</span></button>
         </form>
       </div>

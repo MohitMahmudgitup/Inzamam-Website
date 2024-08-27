@@ -1,3 +1,45 @@
+@media (max-width:700px) {
+  .castom-contect{
+    flex-direction: column;
+  }
+  .castom-contect .castom-contect-left{
+    height: 400px;
+    width: 100%;
+    /* background:red; */
+  }
+  .castom-contect-left h1{
+    font-size: 12vw;
+  }
+  .castom-contect-left h2{
+    font-size: 4vw;
+  }
+  .castom-contect-right{
+    height: 400px;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .btn-26,
 .btn-26 *,
 .btn-26 :after,

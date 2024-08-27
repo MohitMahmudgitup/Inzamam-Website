@@ -6,7 +6,7 @@ import { useGSAP } from '@gsap/react';
 export default function Amt() {
     function section1() {
         let mm = gsap.matchMedia()
-          mm.add("(min-width:800px)",()=>{
+          mm.add("(min-width:1000px)",()=>{
             useGSAP(()=>{
               let tl = gsap.timeline() 
               .to(" .longImage",{
@@ -36,26 +36,26 @@ export default function Amt() {
 
 
   return (
-    <div className="longImageBox hidden md:flex w-full md:h-96 mt-40   items-center ">
+    <div className="longImageBox flex w-full md:h-96 mt-40   items-center ">
     <div className="longImage flex  w-[100%] h-72 -rotate-6 ">
-        <img className="Animition-img rounded-md m-1" src={allImage.pic1} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic2} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic4} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic5} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic6} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic7} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic1} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic2} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic4} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic5} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic6} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic7} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic1} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic2} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic4} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic5} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic6} alt="" srcset="" />
-        <img className="Animition-img rounded-md m-1" src={allImage.pic7} alt="" srcset="" />   
+        <img className="Animition-img rounded-md m-1" src={allImage.pic1} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic2} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic4} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic5} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic6} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic7} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic1} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic2} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic4} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic5} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic6} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic7} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic1} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic2} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic4} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic5} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic6} alt=""/>
+        <img className="Animition-img rounded-md m-1" src={allImage.pic7} alt=""/>   
     </div>
   </div>
   )

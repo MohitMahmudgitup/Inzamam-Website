@@ -1,0 +1,8 @@
+@media (max-width:799px) {
+    .castom-footer{
+        flex-direction: column;
+        gap: 40px;
+        align-content: center;
+        justify-content: center;
+    }
+}

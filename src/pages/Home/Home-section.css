@@ -2,13 +2,29 @@
  text-shadow:0 0 4px white;
     
 }
+@media (max-width:1000px) {
+    .castom-display-text h1{
+        font-size: 10vw;
+    }
+    .box-image{
+        height: 100%;
+        padding: 50px 0px;
+    }
+    .castom-display-text .castom-display-img-box{
+        height: 100%;
+        
+    }
+    
+}
 @media (max-width:799px) {
 
     .box-image .castom-text{
-        font-size:65px ;
-        font-weight: 500;
-        margin-top: 65px;
-        
+        font-size: 7vw;  
+    }
+    .castom-display-img-box .castom-display-img{
+
+        margin-top: 100px;
+
     }
     .image{
         padding: 0;
@@ -30,5 +46,19 @@
     }
     .castom-22 img{
         margin: auto;
+    }
+}
+@media (max-width:599px) {
+    .box-image{
+        padding-top: 100px;
+    }
+    .box-image .castom-text{
+        font-size: 16vw;
+        margin-top: 50px;  
+    }
+    .castom-display-img-box .castom-display-img{
+        height: 100%;
+        margin-top: 100px;
+        width: 100%;
     }
 }

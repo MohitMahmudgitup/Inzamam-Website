@@ -62,7 +62,7 @@ function Header() {
               
               <Link to={"/"} id='Logo' className=' px-5 text-xl flex justify-center items-center md:text-2xl cursor-pointer f1 gap-2'><SiCodersrank /> Mohit Mahmud</Link>
             </div>
-            <div className=' hidden md:block w-[22vw] '>
+            <div className='castom-nav-items-box hidden md:block w-[23vw] bg-slate-400 '>
                 <ul className=' flex justify-evenly items-center'>
                   <Link to={""}           className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>HOME</Link>
                   <Link to={"/about"}     className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</Link>

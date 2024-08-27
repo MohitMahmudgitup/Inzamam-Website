@@ -4,3 +4,8 @@
 .Animition-img:hover{
     transform: scale(.96);
 }
+@media (max-width:1000px) {
+    .longImageBox{
+        display: none;
+    }
+}

@@ -19,7 +19,20 @@
 .navIcon{
     display: none;
 }
+@media (max-width:1200px) {
+    .castom-nav-items-box{
+        width: 30vw;
+    }
+}
+@media (max-width:1000px) {
+    .castom-nav-items-box{
+        width: 33vw;
+    }
+}
 @media (max-width:800px) {
+    .castom-nav-items-box{
+        display: none;
+    }
     .navIcon{
         display: block;
     }
