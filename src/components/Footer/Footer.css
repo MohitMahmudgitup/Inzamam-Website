@@ -5,4 +5,7 @@
         align-content: center;
         justify-content: center;
     }
+    .footer-item{
+        padding: 0px 30px;
+    }
 }

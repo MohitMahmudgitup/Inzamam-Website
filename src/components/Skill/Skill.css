@@ -13,3 +13,26 @@
 .castom-skill-item:hover{
     padding: 50px;
 }
+@media (max-width:1000px) {
+    .castom-skill-div{
+        /* margin-top:-200px ; */
+        padding: 0;
+        flex-direction: column ;
+        justify-content: center;
+        /* background: #917474; */
+        padding-top: 80px;
+    }
+    .castom-skill-div h1{
+        font-size: 105px;
+    }
+    .castom-skill-div .castom-skill-titel{
+        width: 100%;
+        padding: 15px 0 ;
+        text-align: center;
+    }
+    .castom-skill-carts-div{
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 0 40px;
+    }
+}

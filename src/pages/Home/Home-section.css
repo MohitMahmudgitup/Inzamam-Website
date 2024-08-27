@@ -1,5 +1,5 @@
 .box-image .castom-text{
- text-shadow:0 0 4px white;
+ text-shadow:0 0 4px rgb(0, 0, 0);
     
 }
 @media (max-width:1000px) {
@@ -12,7 +12,9 @@
     }
     .castom-display-text .castom-display-img-box{
         height: 100%;
-        
+    }
+    .row-text{
+        display: none;
     }
     
 }

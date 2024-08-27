@@ -1,4 +1,4 @@
-// import React, { useRef } from 'react'
+
 import "../../App.css"
 import { allImage } from "../../Images/image";
 import gsap from "gsap"
@@ -7,10 +7,12 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import "./Home-section.css"
 import Amt from "../../components/Home-Animation-Pic/Amt";
 import Skill from "../../components/Skill/Skill";
+import { useEffect, useRef } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 
 function Homesection() {
+
 
 
 
@@ -52,29 +54,6 @@ function section1() {
         })
     })
   
-
-    // mobile
-
-
-    // mm.add("(max-width:500px)",()=>{
-    //   useGSAP(()=>{
-    //     let tl = gsap.timeline()
-    //     .to(".box-image .image",{
-    //       transform: "translatey(-80%)",
-    //       scrollTrigger:
-    //       {
-    //         scroll:".box-image .image",
-    //         trigger:".box-image",
-    //         start: "top 0% ",
-    //         end: "bottom 150%",
-    //         scrub: 3,
-    //         pin: true, 
-    //         markers:true
-    //       }
-    //       })  
-    //   })
-       
-    // })
 }
 
 section1()
@@ -83,7 +62,7 @@ section1()
 
 
   
-  <main className="main text-blue-50">
+  <main className="main scroll-container text-blue-50" >
     <section className=' box-image py-28 px-0 md:h-[170vh]  flex justify-between items-center flex-col  '>
       <div className='castom-display-text w-full   md:w-[50%] flex justify-center items-center flex-col mb-3 md:mb-0  px-5 md:px-0'>
         <h1  className='f1 castom-text capitalize cursor-default leading-[3vw] z-40 text-center mt-16 text-6xl md:text-9xl castom-font'>FullStack </h1>
@@ -117,12 +96,13 @@ section1()
       </div>
     </div>
   </section>
-  <section className="hidden md:block">
+  <section className="row-text">
     <div className="bigtextbox w-full h-[100vh] ">
       <h1 className="f1 text-[40vw] cursor-default text-nowrap -mt-10">SYED MOHIT MAHMUD INZAMAM</h1>
     </div>
-    <Skill/>
   </section>
+  
+    <Skill/>
   </main>
   
   </>

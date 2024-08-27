@@ -8,6 +8,7 @@ import {Link, NavLink } from 'react-router-dom';
 import { IoClose } from "react-icons/io5";
 import { SiCodersrank } from "react-icons/si";
 import { IoCloudDownloadSharp } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa6";
 
 function Header() {
   // const Logo = "</> "
@@ -56,20 +57,25 @@ function Header() {
           <h1 className='text-4xl md:text-8xl '>Hello World</h1>
         </div>
       </div>  */}
-    <header className="text-blue-50">  
-          <div className='castom-header h-16 glassColor fixed z-40  flex px-2 md:px-20 py-5 justify-between items-center'>
+    <header className=" text-blue-50">  
+          <div className='castom-header fixed h-16 glassColor  z-40  flex px-2 md:px-20 py-5 justify-between items-center'>
             <div className='castom-navlogo flex justify-center items-center'>
               
               <Link to={"/"} id='Logo' className=' px-5 text-xl flex justify-center items-center md:text-2xl cursor-pointer f1 gap-2'><SiCodersrank /> Mohit Mahmud</Link>
             </div>
-            <div className='castom-nav-items-box hidden md:block w-[23vw] '>
+            <div className='castom-nav-items-box hidden md:block w-[25vw] '>
                 <ul className=' flex justify-evenly items-center'>
                   <Link to={""}           className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>HOME</Link>
                   <Link to={"/about"}     className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</Link>
                   <Link to={"/contectUs"} className='f3 px-[13px] py-[6px]  font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>CONTECT US</Link>
-                  <a href=''>
+                  <a href='../../pdf/MohitMahmud.pdf' download="MohitMahmud.pdf">
                   <div className='f3 p-[10px]  font-medium rounded-full border-[1px] text-[12px]  castom-nav-item'>
                   <IoCloudDownloadSharp />
+                  </div>
+                  </a>
+                  <a href='https://github.com/MohitMahmudgitup' target='_blank' >
+                  <div className='f3 p-[8px]  font-medium rounded-full border-[1px] text-[12px]  castom-nav-item'>
+                  <FaGithub className='w-4 h-4 '/>
                   </div>
                   </a>
                 </ul>
