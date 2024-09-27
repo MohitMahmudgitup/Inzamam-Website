@@ -45,8 +45,7 @@ function Header() {
     gsap.timeline()
     .to(navMove.current,{
       x:onClickNav,
-      duration:.80,
-      // delay:.50
+      duration:.89
     })
   },[onClickNav])
   

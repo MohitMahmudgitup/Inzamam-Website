@@ -1,7 +1,14 @@
-.castom-about{
+/* .castom-about{
     transition: 2s;
 }
 .castom-about:hover{
     padding: 200px;
     border-radius: 100px;
+} */
+@media (max-width:800px) {
+    section .video{
+        height: 300px;
+        border-radius: 10px;
+
+    }
 }
