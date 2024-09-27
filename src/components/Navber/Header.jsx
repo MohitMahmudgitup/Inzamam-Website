@@ -38,14 +38,15 @@ function Header() {
   })
 
   const rightX = -400
-  const leftX = 560
+  const leftX = -50
   const [onClickNav,setOnClickNav] = useState()
   const navMove = useRef()
   useGSAP(()=>{
     gsap.timeline()
     .to(navMove.current,{
       x:onClickNav,
-      direction:.47,
+      duration:.80,
+      // delay:.50
     })
   },[onClickNav])
   
