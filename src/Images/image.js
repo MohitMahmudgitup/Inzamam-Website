@@ -12,7 +12,7 @@ import pic11 from "./pic11.png"
 import pic12 from "./pic12.png"
 import pic13 from "./pic13.png"
 
-export const allImage ={
+export let allImage ={
     pic1,
     pic2,
     pic3,
