@@ -65,9 +65,9 @@ section1()
   <main className="main scroll-container text-blue-50" >
     <section className=' box-image py-28 px-0 md:h-[170vh]  flex justify-between items-center flex-col  '>
       <div className='castom-display-text w-full   md:w-[50%] flex justify-center items-center flex-col mb-3 md:mb-0  px-5 md:px-0'>
-        <h1  className='f1 castom-text capitalize cursor-default leading-[3vw] z-40 text-center mt-16 text-6xl md:text-9xl castom-font'>FullStack </h1>
-        <h1  className='f1 castom-text capitalize cursor-default leading-[3vw] z-40 text-center text-6xl md:text-9xl castom-font '>web</h1>
-        <h1 className='f1 castom-text capitalize cursor-default leading-[3vw] text-center text-6xl md:text-9xl castom-font '>developer</h1>
+        <h1  className='f1 castom-text capitalize cursor-default leading-[3vw] z-40 text-center mt-16 text-6xl md:text-9xl '>FullStack </h1>
+        <h1  className='f1 castom-text capitalize cursor-default leading-[3vw] z-40 text-center text-6xl md:text-9xl '>web</h1>
+        <h1 className='f1 castom-text capitalize cursor-default leading-[3vw] text-center text-6xl md:text-9xl  '>developer</h1>
         <div className="castom-display-img-box w-full h-full md:h-[80vh] image  flex justify-center  ">
           <div className='castom-display-img md:w-96    md:p-0 rounded-xl md:translate-y-1/4 '>
             <img className='rounded-xl bottom-0' src={allImage.pic3}/>
