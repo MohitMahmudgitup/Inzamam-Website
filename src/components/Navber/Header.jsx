@@ -35,7 +35,7 @@ function Header() {
   });
 
   const rightX = -400;
-  const leftX = -50;
+  const leftX = -30;
   const [onClickNav, setOnClickNav] = useState();
   const navMove = useRef();
   useGSAP(() => {
@@ -55,10 +55,11 @@ function Header() {
               <SiCodersrank /> Mohit Mahmud
             </Link>
           </div>
-          <div className='castom-nav-items-box hidden md:block w-[25vw]'>
+          <div className='castom-nav-items-box hidden md:block w-[30vw]'>
             <ul className='flex justify-evenly items-center'>
               <Link to={""} className='f3 px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>HOME</Link>
               <Link to={"/about"} className='f3 px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</Link>
+              <Link to={"/project"} className='f3 px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>PROJECT</Link>
               <Link to={"/contectUs"} className='f3 px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>CONTECT US</Link>
               <a download="MohitMahmud" href={pdf}>
                 <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
@@ -79,11 +80,12 @@ function Header() {
 
         <div ref={navMove} className='mobile-nav-box left-[540px] md:hidden fixed z-50 justify-center pr:0 flex items-center'>
           <IoClose onClick={() => { setOnClickNav(leftX) }} className='cursor-pointer text-5xl absolute top-3 right-[8.9vw]' />
-          <div className='h-[30vh]'>
+          <div className='h-[30vh] '>
             <ul className='w-full h-full flex justify-between flex-col text-center'>
-              <NavLink to={""} className='navkink f1 py-2 px-10 rounded-3xl castom-c-a3a3a3 text-5xl'>Home</NavLink>
-              <NavLink to={"/about"} className='navkink f1 py-2 px-10 rounded-3xl castom-c-a3a3a3 text-5xl'>About</NavLink>
-              <NavLink to={"/contectUs"} className='navkink f1 py-2 px-10 rounded-3xl castom-c-a3a3a3 text-5xl'>Contact Us</NavLink>
+              <NavLink to={""} className='navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl'>Home</NavLink>
+              <NavLink to={"/about"} className='navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl'>About</NavLink>
+              <NavLink to={"/project"} className='navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl'>Project</NavLink>
+              <NavLink to={"/contectUs"} className='navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl'>Contact Us</NavLink>
               <div className='flex absolute bottom-4 right-3 gap-4 justify-center'>
                 <a download="MohitMahmud" href={pdf}>
                   <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>

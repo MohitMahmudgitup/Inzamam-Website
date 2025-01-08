@@ -3,7 +3,7 @@ import Footer from './components/Footer/Footer.jsx'
 import Header from './components/Navber/Header.jsx'
 import { Outlet } from 'react-router-dom'
 import ScrollToTop from "react-scroll-to-top";
-
+// import { ReactLenis } from "lenis/react";
 
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+    {/* <ReactLenis root> */}
     <Header/>
       <main className='w-full min-h-[calc(100vh-160px)] '>
       <Outlet />
@@ -34,6 +35,8 @@ function App() {
         }}
       />
 
+    {/* </ReactLenis> */}
+   
 
 
     </>
