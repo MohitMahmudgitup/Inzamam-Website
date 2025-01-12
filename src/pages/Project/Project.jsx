@@ -1,10 +1,23 @@
 import React from 'react'
+import GitCard from '../../components/gitcard/GitCard'
 
 const Project = () => {
   return (
-   <section className=' w-full h-[100vh]'>
-        <div className='flex flex-col items-center justify-center h-full'>
-            <h1 className='sm:text-4xl text-xl f3 text-white'>Project upcoming...</h1>
+   <section className=' w-full pt-20'>
+        <div className='sm:px-16   px-6  overflow-y-scroll  scroll-smooth w-full h-[80vh] scrollbar-hide'>
+          <h1 className='text-white text-2xl'> Githup Projects</h1>
+          <GitCard/>
+        </div>
+        <div className='sm:px-16   px-6  w-full'>
+        <h1 className='text-white text-2xl'>
+          Live Project
+        </h1>
+        <div className='w-full h-[100vh] flex justify-center items-center'>
+        <h1 className='text-white text-xl text-center '>
+          Upcomming...
+        </h1>
+        </div>
+
         </div>
    </section>
   )
