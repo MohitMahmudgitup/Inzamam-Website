@@ -1,0 +1,35 @@
+/* From Uiverse.io by adamgiebl */ 
+.button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 12px 16px;
+    color: white;
+    /* background: #ad5389; */
+    /* background: linear-gradien1t(to right, #0f0c29, #32304b, #383853); */
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 30px;
+  }
+  
+  .button svg {
+    margin-right: 3px;
+    transform: rotate(-40deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .button:hover svg {
+    transform: translateX(5px) rotate(0deg);
+  }
+  
+  .button:hover span {
+    transform: translateX(7px);
+  }
+  

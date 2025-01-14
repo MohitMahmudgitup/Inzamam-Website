@@ -31,7 +31,7 @@ function App() {
           display:"flex",
           justifyContent:"center",
           alignItems:"center",
-          // color:"black"
+          color:"black"
         }}
       />
 
