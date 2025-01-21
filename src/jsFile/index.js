@@ -24,9 +24,14 @@ export const components = [
             links: "https://github.com/MohitMahmudgitup/Food-del"
         },
         {
-          title: "Auth-MARN",
+          title: "Auth MARN",
           description:"This create in the MARN stack with user authentication.",
           links: "github.com/MohitMahmudgitup/Auth-MERN"
+        },
+        {
+          title: "Car showcase ",
+          description:"This create in the NEXT JS and typescript .",
+          links: "https://github.com/MohitMahmudgitup/car_showcase"
         }
 
       ],
