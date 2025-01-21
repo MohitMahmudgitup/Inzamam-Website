@@ -22,6 +22,11 @@ export const components = [
             title: "Food del",
             description:" A full stack Food delivery website with user authentication, payment gateway, and product management all of which are built using MERN stack.",
             links: "https://github.com/MohitMahmudgitup/Food-del"
+        },
+        {
+          title: "Auth-MARN",
+          description:"This create in the MARN stack with user authentication.",
+          links: "github.com/MohitMahmudgitup/Auth-MERN"
         }
 
       ],
