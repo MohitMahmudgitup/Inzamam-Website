@@ -32,6 +32,11 @@ export const components = [
           title: "Car showcase ",
           description:"This create in the NEXT JS and typescript .",
           links: "https://github.com/MohitMahmudgitup/car_showcase"
+        },
+        {
+          title: "Social media clone",
+          description:"Next JS project with help of clerk.",
+          links: "https://github.com/MohitMahmudgitup/social_media_clone"
         }
 
       ],
