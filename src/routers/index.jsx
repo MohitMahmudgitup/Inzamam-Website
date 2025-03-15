@@ -23,7 +23,7 @@ const router = createBrowserRouter([
                 element:<Project/>
             },
             {
-                path:"/contectUs",
+                path:"/contactUs",
                 element:<ContectUs/>
             }
         ]

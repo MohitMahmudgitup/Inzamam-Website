@@ -23,7 +23,7 @@ function ContectUs() {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully:)");
+      setResult("Form Submitted Successfully🥰");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -35,10 +35,18 @@ function ContectUs() {
   return (
   <main className='text-white flex castom-contect'>
     <div className='castom-contect-left w-[50%] h-[100vh] flex justify-center items-center flex-col px-5'>
-      <h1 className="f1 text-[5vw] castom-font">Contact Us</h1>
-      <h2 className="text-[3vw] castom-font">I'd Love To Hear From You.</h2>
-      <h2 className="f2 text-[1.2vw] castom-font text-center">In case of any queries you can send your queries by following the below details!</h2>
-          <h2 className='text-[3vw] castom-font' >{result}</h2>
+      <h1 className="f1 text-[5vw]">Contact Us</h1>
+      {
+        result ?(
+<h2 className='text-[3vw] f2 text-gray-500' >{result}</h2>
+        ):(<>
+        <h2 className="text-[3vw] f2 text-gray-500">I'd Love To Hear From You.</h2>
+        <h2 className="text-[1.2vw] text-gray-500  text-center">In case of any queries you can send your queries by following the below details!</h2>
+        </>
+          
+        )
+      }
+          
     </div>
     <div className='castom-contect-right w-[50%] flex justify-center items-center '>
         <form className='flex flex-col gap-4' onSubmit={onSubmit}>
