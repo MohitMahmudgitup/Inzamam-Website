@@ -38,16 +38,16 @@ function Header() {
       <div className='fixed w-full h-16 glassColor z-40 flex px-4 md:px-20 py-5 justify-between items-center'>
         <div className='flex items-center'>
           <Link to="/" id='Logo' className='f1 text-xl md:text-2xl flex items-center gap-2 '>
-            <SiCodersrank /> Mohit Mahmud
+            <SiCodersrank /> Mohit Mahmud <span className='font-bold text-xs flex f4  bg-yellow-400 rounded-full text-black px-2 absolute -right-[80px] bottom-0 transition-transform duration-300 ease-out hover:translate-x-1  '>developer</span>
           </Link>
         </div>
 
         {/* Desktop Navigation */}
         <nav className='hidden md:flex gap-2'>
-          <NavLink to="/" className='f3 px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>HOME</NavLink>
-          <NavLink to="/about" className='f3 px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</NavLink>
-          <NavLink to="/project" className='f3 px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>PROJECT</NavLink>
-          <NavLink to="/contactUs" className='f3 px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>CONTACT</NavLink>
+          <NavLink to="/" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>HOME</NavLink>
+          <NavLink to="/about" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</NavLink>
+          <NavLink to="/project" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>PROJECT</NavLink>
+          <NavLink to="/contactUs" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>CONTACT</NavLink>
           <a href="https://mohitmahmud.tiiny.site/" className='nav-icon'>  <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
                   <IoCloudDownloadSharp />
                 </div></a>

@@ -35,13 +35,13 @@ function ContectUs() {
   return (
   <main className='text-white flex castom-contect'>
     <div className='castom-contect-left w-[50%] h-[100vh] flex justify-center items-center flex-col px-5'>
-      <h1 className="f1 text-[5vw]">Contact Us</h1>
+      <h1 className="f1 text-7xl">Contact Us</h1>
       {
         result ?(
 <h2 className='text-[3vw] f2 text-gray-500' >{result}</h2>
         ):(<>
-        <h2 className="text-[3vw] f2 text-gray-500">I'd Love To Hear From You.</h2>
-        <h2 className="text-[1.2vw] text-gray-500  text-center">In case of any queries you can send your queries by following the below details!</h2>
+        <h2 className="sm:text-2xl  text-gray-500 f4">I'd Love To Hear From You.</h2>
+        <h2 className="text-[1.2vw] text-gray-500 f4  text-center">In case of any queries you can send your queries by following the below details!</h2>
         </>
           
         )
@@ -53,17 +53,17 @@ function ContectUs() {
         <input type="hidden" name="access_key" value="2c8f0a6d-4379-42ab-b407-9dc76af6a591"/>
         <div className='flex items-center gap-2'>
             <FaAddressCard className='w-3 h-3'/>
-            <h1 className='f2 text-sm '>Full Name</h1>
+            <h1 className='f4 text-sm '>Full Name</h1>
           </div>
           <input className='w-80 outline-none border border-b-1 bg-black h-9 rounded-xl pl-3  ' type="text" name="name" required/>
           <div className='flex items-center gap-2'>
             <MdEmail className='w-3 h-3'/>
-            <h1 className='f2 text-sm '>Email</h1>
+            <h1 className='f4 text-sm '>Email</h1>
           </div>     
           <input className='w-80 outline-none border border-b-1 bg-black h-9 rounded-xl pl-3  ' type="email" name="email" required/>
           <div className='flex items-center gap-2'>
             <BsChatRightTextFill className='w-3 h-3' />
-            <h1 className='f2 text-sm '>Message</h1>
+            <h1 className='f4 text-sm '>Message</h1>
           </div>
           <textarea className='w-80 py-2 outline-none border border-b-1 bg-black h-28 rounded-xl pl-3  ' name="message" required />
           <button class="btn-26" type="submit"><span>Submit Form</span></button>

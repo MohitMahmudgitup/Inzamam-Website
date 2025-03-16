@@ -21,7 +21,7 @@ function Skill() {
   return (
     <div className='skill-section py-20  text-white sm:flex  items-center justify-around'>
       <div>
-      <h1 className='text-7xl sm:text-8xl -mt-10 f1 text-center  '>Skills</h1>
+      <h1 className='text-7xl sm:text-8xl -mt-10 f1 text-center cursor-default  '>Skills</h1>
       </div>
       <div className='grid grid-cols-2 md:grid-cols-3  gap-6 px-10 pt-6 sm:pt-0'>
         {skills.map((skill, index) => (

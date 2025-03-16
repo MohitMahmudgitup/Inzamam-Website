@@ -50,26 +50,36 @@ function About() {
           {/* Overlay for better text visibility */}
           <div className='absolute inset-0 bg-black opacity-50'></div>
           {/* Heading */}
-          <h2 ref={titleRef} className="f1 text-[15vw] md:text-[10vw] absolute z-10">About</h2>
+          <h2 ref={titleRef} className="f1 text-[15vw] md:text-[10vw] absolute z-10 cursor-default">About</h2>
         </div>
       </section>
 
       {/* About Me Section */}
       <section className='w-full py-16 flex flex-col items-center' ref={el => sectionRefs.current[0] = el}>
-        <h1 className='f1 text-[8vw] md:text-[8xl] mb-8'>Who I Am</h1>
-        <p className='text-lg md:text-2xl text-center max-w-[70vw]'>
+        <h1 className='f1 text-7xl md:text-[8xl] mb-8 cursor-default'>Who I Am</h1>
+        <p className='text-lg md:text-2xl text-center max-w-[70vw] cursor-default'>
           I'm a passionate full-stack developer specializing in React and Node.js. 
           I enjoy building responsive, user-friendly applications and solving complex problems.
         </p>
       </section>
 
       {/* Contact Section */}
-      <section className='w-full py-16 flex flex-col items-center' ref={el => sectionRefs.current[1] = el}>
-        <h1 className='f1 text-[8vw] md:text-[8xl] mb-8'>Get In Touch</h1>
-        <p className='text-lg md:text-2xl text-center max-w-[70vw]'>
+      <section className='w-full py-16 flex flex-col items-center ' ref={el => sectionRefs.current[1] = el}>
+        <h1 className='f1 text-7xl md:text-[8xl] mb-8 cursor-default'>Get In Touch</h1>
+        <p className='text-lg md:text-2xl text-center max-w-[70vw] cursor-default'>
           Have a project in mind? I'd love to collaborate with you! Reach out via email at 
-          <a href="mailto:mohitmahmud25@gmail.com" className='text-blue-400 underline'> mohitmahmud25@gmail.com</a>.
         </p>
+        <p className="mt-10  rounded-xl bg-zinc-950 px-4 py-4 border border-zinc-700 border-dashed ">
+  <a
+    href="mailto:mohitmahmud25@gmail.com"
+    className="f1 md:text-4xl text-center max-w-[70vw] inline-block
+              transition-all duration-500 ease-out hover:scale-95 "
+  >
+    mohitmahmud25@gmail.com
+  </a>
+</p>
+
+
       </section>
     </main>
   );
