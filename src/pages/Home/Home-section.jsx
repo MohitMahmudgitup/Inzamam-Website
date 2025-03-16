@@ -96,7 +96,7 @@ section1()
       <h1 className="f1 text-[40vw] cursor-default text-nowrap -mt-10 ">SYED MOHIT MAHMUD INZAMAM</h1>
     </div>
   </section>
-  
+  <hr />
     <Skill/>
   </main>
   
