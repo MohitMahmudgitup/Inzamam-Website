@@ -82,7 +82,7 @@ section1()
       <div className="castom-221 flex ">
         <div className="castom-22 flex md:w-[50%] flex-col  ">
           <h1 className="text-7xl f1  pb-10 cursor-default">Let's create</h1>
-          <h1 className="f1 text-7xl -mt-10   pb-10 cursor-default">beautiful things.</h1>
+          <h1 className="f1 text-7xl -mt-10   pb-10 cursor-default"><span className="text-violet-400">beautiful</span> things.</h1>
           <img className=" w-[90%] md:w-[80%]  rounded-[10px]" src={allImage.pic14} alt=""/>
         </div>
         <div className="md:w-[50%] flex flex-col items-center justify-center ">
