@@ -53,6 +53,7 @@
     box-sizing: border-box;
     
 }
+
 body{
     background-color: #111;
     /* font-family: "Nunito", sans-serif; */
@@ -68,7 +69,9 @@ body{
     font-weight: 400;
     font-style: normal;
 } */
-
+.contectbg{
+  background-color: #e45959;
+}
 
 
 

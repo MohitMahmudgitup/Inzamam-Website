@@ -48,10 +48,10 @@ function About() {
     {/* Glassmorphism Effect for Text */}
     <div className="absolute z-10   px-8 py-6 rounded-xl   shadow-lg text-center">
       <h2 
-        ref={titleRef} 
-        className="f1 text-5xl sm:text-7xl md:text-8xl font-extrabold text-white tracking-wide "
+        // ref={titleRef} 
+        className="f1 text-5xl sm:text-9xl md:text-[30vw] font-extrabold text-white  "
       >
-        About 
+        About us
       </h2>
     </div>
   </div>

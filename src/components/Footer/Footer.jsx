@@ -4,7 +4,7 @@ import { SiCodersrank } from "react-icons/si";
 import "./Footer.css"
 function Footer() {
   return (
-    <footer className='castom-footer text-white flex justify-between items-center py-16 px-20'>
+    <footer className='castom-footer bg-[#111] z-50  text-white flex justify-between items-center py-16 px-20'>
       <div className='flex justify-center items-center  '>   
         <h2 id='Logo' className=' md:px-5 text-xl flex justify-center items-center md:text-2xl cursor-pointer f1 md:gap-2'><SiCodersrank /> Mohit Mahmud</h2>
       </div>
