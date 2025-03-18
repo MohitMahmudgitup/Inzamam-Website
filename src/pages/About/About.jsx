@@ -85,7 +85,7 @@ function About() {
           }`}
         >
           <section className='w-full px-6 sm:px-16 py-16 flex flex-col   '>
-            <h1 className='f2  text-5xl md:text-4xl mb-8 cursor-default text-green-400  sm:text-end text-center '>Who I Am</h1>
+            <h1 className='f1  text-5xl md:text-4xl mb-8 cursor-default text-green-400  sm:text-end text-center '>Who I Am</h1>
             <p className='text-lg md:text-6xl sm:text-start text-center   cursor-default'>
               I'm a passionate full-stack developer specializing in <span className=' text-blue-500'>React</span> and <span className=' text-green-800'>Node.js</span>. 
               I enjoy building responsive, user-friendly applications and solving complex problems.
@@ -101,7 +101,7 @@ function About() {
           }`}
         >
           <section className='w-full px-6 sm:px-16 py-16 flex flex-col   '>
-            <h1 className='f2  text-5xl md:text-4xl mb-8 cursor-default text-fuchsia-400 sm:text-end  text-center  '>Get In Touch</h1>
+            <h1 className='f1  text-5xl md:text-4xl mb-8 cursor-default text-fuchsia-400 sm:text-end  text-center  '>Get In Touch</h1>
             <p className='text-lg md:text-6xl sm:text-start text-center    cursor-default'>
               Have a project in mind? I'd love to collaborate with you! Reach out via email at  <div className='flex justify-center mt-10 animate-bounce'><GoArrowDown color="red"/> </div>
             </p>
