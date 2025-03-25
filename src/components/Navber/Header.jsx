@@ -48,7 +48,7 @@ function Header() {
           <NavLink to="/about" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</NavLink>
           <NavLink to="/project" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>PROJECT</NavLink>
           <NavLink to="/contactUs" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>CONTACT</NavLink>
-          <a href="https://mohitmahmud.tiiny.site/" className='nav-icon'>  <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
+          <a href="https://mohitmahmud.tiiny.site/" target='_blank' className='nav-icon'>  <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
                   <IoCloudDownloadSharp />
                 </div></a>
           <a href="https://github.com/MohitMahmudgitup" target='_blank' className='nav-icon'><div className='f3 p-[8px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
@@ -72,7 +72,7 @@ function Header() {
           <NavLink to="/contactUs" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>Contact</NavLink>
         </nav>
         <div className='flex gap-6 mt-8'>
-          <a href="https://mohitmahmud.tiiny.site/" className='nav-icon'> <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
+          <a href="https://mohitmahmud.tiiny.site/" target='_blank' className='nav-icon'> <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
                   <IoCloudDownloadSharp />
                 </div></a>
           <a href="https://github.com/MohitMahmudgitup" target='_blank' className='nav-icon'><div className='f3 p-[8px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
