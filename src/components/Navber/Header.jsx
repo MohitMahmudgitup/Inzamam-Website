@@ -38,7 +38,7 @@ function Header() {
       <div className='fixed w-full h-16 glassColor z-40 flex px-4 md:px-20 py-5 justify-between items-center'>
         <div className='flex items-center'>
           <Link to="/" id='Logo' className='f1 text-xl md:text-2xl flex items-center gap-2 '>
-            <SiCodersrank /> Mohit Mahmud <span className='font-bold text-xs flex f4  bg-yellow-400 rounded-full text-black px-2 absolute -right-[80px] bottom-0 transition-transform duration-300 ease-out hover:translate-x-1  '>developer</span>
+            <SiCodersrank /> Mohit Mahmud <span className='font-bold text-xs flex f4  bg-yellow-400 rounded-full text-black px-2 absolute -right-[60px] sm:-right-[80px] -bottom-1 sm:bottom-0 transition-transform duration-300 ease-out  '>developer</span>
           </Link>
         </div>
 
