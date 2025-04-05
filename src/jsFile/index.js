@@ -48,7 +48,7 @@ export const components = [
         {
           title: "E-commerce website",
           links: "https://full-stack-e-commerce-frontend.onrender.com",
-          img: "E-commersWepsite01.png"
+          img: "EcommersWepsite01.png"
         },
       ],
     },

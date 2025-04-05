@@ -5,8 +5,8 @@ function LiveCart({ live, title, image }) {
     <div className="relative w-full sm:w-[500px] lg:w-[750px] h-[300px] sm:h-[400px] bg-white rounded-2xl overflow-hidden">
       {/* Product Image */}
       <img
-        src={`/src/Images/${image}`}
-        alt="Augmented Reality"
+        src={image}
+        alt={title}
         className="w-full h-full object-cover"
       />
 
