@@ -4,16 +4,23 @@ import LiveProject from "../../components/LiveProject";
 
 const Project = () => {
   return (
-    <section className=" w-full pt-20">
-      <div className="sm:px-16   px-6  overflow-y-scroll  scroll-smooth w-full h-[80vh] scrollbar-hide">
-        <h1 className="text-white text-2xl"> Githup Projects</h1>
-        <GitCard />
-      </div>
-      <div className="sm:px-16   px-6  w-full">
-        <h1 className="text-white text-2xl">Live Project</h1>
-        <div className="w-full  flex ">
-          <LiveProject />
+    <section className="w-full pt-20 ">
+      {/* GitHub Projects Section */}
+      <div className="sm:px-16 px-6 pb-16">
+        <h1 className="text-white text-3xl font-semibold mb-6">
+          🛠 GitHub Projects
+        </h1>
+        <div className="max-h-[70vh] overflow-y-auto pr-2 scrollbar-hide">
+          <GitCard />
         </div>
+      </div>
+
+      {/* Live Projects Section */}
+      <div className="sm:px-16 px-6 pb-16">
+        <h1 className="text-white text-3xl font-semibold mb-6">
+          🚀 Live Projects
+        </h1>
+        <LiveProject />
       </div>
     </section>
   );
