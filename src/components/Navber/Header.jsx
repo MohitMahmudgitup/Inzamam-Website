@@ -56,14 +56,23 @@ function Header() {
                 </div></a>
         </nav>
 
+
         {/* Mobile Menu Icon */}
-        <div className="md:hidden">
+        <div className="md:hidden flex gap-3">
+        <a href="https://github.com/MohitMahmudgitup" target='_blank' className='nav-icon'><div className='f3 p-[8px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
+                  <FaGithub className='w-4 h-4 ' />
+                </div></a>
+        <a href="https://mohitmahmud.tiiny.site/" target='_blank' className='nav-icon'>  <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
+                  <IoCloudDownloadSharp />
+                </div></a>
           <HiOutlineViewList onClick={() => setNavOpen(true)} className='cursor-pointer w-9 h-9' />
+
         </div>
       </div>
 
       {/* Mobile Navigation */}
       <div ref={navRef} className="fixed top-0 right-0 w-full md:w-[60%] h-screen z-50 bg-black text-white flex flex-col items-center justify-center transform translate-x-full">
+
         <IoClose onClick={() => setNavOpen(false)} className='absolute top-5 right-5 text-4xl cursor-pointer' />
         <nav className="flex flex-col gap-6 text-2xl">
           <NavLink to="/" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>Home</NavLink>
@@ -71,14 +80,6 @@ function Header() {
           <NavLink to="/project" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>Project</NavLink>
           <NavLink to="/contactUs" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>Contact</NavLink>
         </nav>
-        <div className='flex gap-6 mt-8'>
-          <a href="https://mohitmahmud.tiiny.site/" target='_blank' className='nav-icon'> <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
-                  <IoCloudDownloadSharp />
-                </div></a>
-          <a href="https://github.com/MohitMahmudgitup" target='_blank' className='nav-icon'><div className='f3 p-[8px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
-                  <FaGithub className='w-4 h-4 ' />
-                </div></a>
-        </div>
       </div>
     </header>
   );
