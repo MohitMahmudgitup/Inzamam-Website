@@ -13,6 +13,7 @@ import pic12 from "./pic12.png"
 import pic13 from "./pic13.png"
 import pic14 from "./pic14.JPG"
 import EcommersWepsite01 from "./EcommersWepsite01.png"
+import creamlover from "./creamlover.png"
 
 export let allImage ={
     pic1,
@@ -29,5 +30,6 @@ export let allImage ={
     pic12,
     pic13,
     pic14,
-    EcommersWepsite01
+    EcommersWepsite01,
+    creamlover
 }
