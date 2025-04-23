@@ -50,6 +50,11 @@ export const components = [
           links: "https://full-stack-e-commerce-frontend.onrender.com",
           img: "EcommersWepsite01.png"
         },
+        {
+          title: "Cream lover",
+          links: "https://curious-beijinho-2066ca.netlify.app/",
+          img: "creamlover.png"
+        },
       ],
     },
   ];
