@@ -52,8 +52,13 @@ export const components = [
         },
         {
           title: "Cream lover",
-          links: "https://curious-beijinho-2066ca.netlify.app/",
+          links: "https://curious-beijinho-2066ca.netlify.app",
           img: "creamlover.png"
+        },
+        {
+          title: "Harif",
+          links: "https://frontendharif.onrender.com",
+          img: "Harif.png"
         },
       ],
     },
