@@ -13,7 +13,7 @@ function App() {
     <>
     {/* <ReactLenis root> */}
     <Header/>
-      <main className='w-full min-h-[calc(100vh-160px)] '>
+      <main className='w-full min-h-[calc(100vh-160px)] '> 
       <Outlet />
       </main>
       <hr />
