@@ -15,6 +15,12 @@ import pic14 from "./pic14.JPG"
 import EcommersWepsite01 from "./EcommersWepsite01.png"
 import creamlover from "./creamlover.png"
 import Harif from "./Harif.png"
+import Ehan from "./Ehan.png"
+import youtube from "./youtube.png"
+import dressenbd from "./dressenbd.png"
+import MegamartAdmin from "./MegamartAdmin.png"
+import MegamartCustomer from "./MegamartCustomer.png"
+import curious from "./curious.png"
 
 
 export let allImage ={
@@ -34,5 +40,11 @@ export let allImage ={
     pic14,
     EcommersWepsite01,
     creamlover,
-    Harif
+    Harif,
+    Ehan,
+    youtube,
+    dressenbd,
+    MegamartAdmin,
+    MegamartCustomer,
+    curious
 }

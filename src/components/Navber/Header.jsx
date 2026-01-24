@@ -44,27 +44,33 @@ function Header() {
 
         {/* Desktop Navigation */}
         <nav className='hidden md:flex gap-2'>
-          <NavLink to="/" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>HOME</NavLink>
-          <NavLink to="/about" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</NavLink>
-          <NavLink to="/project" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>PROJECT</NavLink>
-          <NavLink to="/contactUs" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>CONTACT</NavLink>
-          <a href="https://mohitmahmud.tiiny.site/" target='_blank' className='nav-icon'>  <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
-                  <IoCloudDownloadSharp />
-                </div></a>
-          <a href="https://github.com/MohitMahmudgitup" target='_blank' className='nav-icon'><div className='f3 p-[8px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
-                  <FaGithub className='w-4 h-4 ' />
-                </div></a>
+          <NavLink to="/" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item flex justify-center items-center'>HOME</NavLink>
+          {/* <NavLink to="/about" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>ABOUT</NavLink> */}
+          {/* <NavLink to="/project" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>PROJECT</NavLink> */}
+          <NavLink to="/contactUs" className=' px-[13px] py-[6px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item  flex justify-center items-center'>CONTACT</NavLink>
+          <a href="https://mohitmahmud.tiiny.site/" target='_blank' className='nav-icon'>
+            <div className='f4 p-[10px] font-medium rounded-full border-[1px] text-[12px] flex gap-2 items-center castom-nav-item'>
+              RESUME
+              <IoCloudDownloadSharp />
+            </div>
+          </a>
+          <a href="https://github.com/MohitMahmudgitup" target='_blank' className='nav-icon'>
+            <div className='f3 p-2.5 font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
+              <FaGithub className='w-4 h-4 ' />
+            </div>
+          </a>
         </nav>
 
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden flex gap-3">
-        <a href="https://github.com/MohitMahmudgitup" target='_blank' className='nav-icon'><div className='f3 p-[8px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
-                  <FaGithub className='w-4 h-4 ' />
-                </div></a>
-        <a href="https://mohitmahmud.tiiny.site/" target='_blank' className='nav-icon'>  <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
-                  <IoCloudDownloadSharp />
-                </div></a>
+          <a href="https://github.com/MohitMahmudgitup" target='_blank' className='nav-icon'><div className='f3 p-[8px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
+
+            <FaGithub className='w-4 h-4 ' />
+          </div></a>
+          <a href="https://mohitmahmud.tiiny.site/" target='_blank' className='nav-icon'>  <div className='f3 p-[10px] font-medium rounded-full border-[1px] text-[12px] castom-nav-item'>
+            <IoCloudDownloadSharp />
+          </div></a>
           <HiOutlineViewList onClick={() => setNavOpen(true)} className='cursor-pointer w-9 h-9' />
 
         </div>
@@ -77,7 +83,7 @@ function Header() {
         <nav className="flex flex-col gap-6 text-2xl">
           <NavLink to="/" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>Home</NavLink>
           <NavLink to="/about" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>About</NavLink>
-          <NavLink to="/project" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>Project</NavLink>
+          {/* <NavLink to="/project" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>Project</NavLink> */}
           <NavLink to="/contactUs" className="navkink f1 py-1 px-10 rounded-3xl castom-c-a3a3a3 text-5xl text-center" onClick={() => setNavOpen(false)}>Contact</NavLink>
         </nav>
       </div>

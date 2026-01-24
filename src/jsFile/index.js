@@ -1,46 +1,63 @@
-export const components = [
-    {
-      gits: [
+import {allImage} from "../Images/image";
+export const productData = [
         {
-          title: "Full stack E-commerce website",
+          title: "Syed Aowlia",
           description:
             "A full stack e-commerce website with user authentication, payment gateway, and product management all of which are built using MERN stack.",
-          links: "https://github.com/MohitMahmudgitup/Full-Stack-E-commerce",
+          links: "https://syed-aowlia-onlie-website.onrender.com/",
+          skills: ["React", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind"],
+          image : allImage.EcommersWepsite01
         },
         {
           title: "Youtube Clone",
           description:
             "This is look like youtube clone with fake API data useing by React and context API.",
-          links: "https://github.com/MohitMahmudgitup/Youtube",
+          links: "https://youtube-cxf1.onrender.com/",
+          skills: ["React", "Context API", "Tailwind" , "Fake API"],
+          image : allImage.youtube
         },
         {
-            title: "Song Project",
-            description:" This is a song project with HTML , CSS , JAVASCRIPT",
-            links: "https://github.com/MohitMahmudgitup/song-project"
-        },
-        {
-            title: "Food del",
-            description:" A full stack Food delivery website with user authentication, payment gateway, and product management all of which are built using MERN stack.",
-            links: "https://github.com/MohitMahmudgitup/Food-del"
-        },
-        {
-          title: "Auth MARN",
+          title: "Admin Panel",
           description:"This create in the MARN stack with user authentication.",
-          links: "github.com/MohitMahmudgitup/Auth-MERN"
+          links: "https://mega-mart-base-admin-panel.vercel.app/",
+          skills: ["Next js", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind"],
+          image : allImage.MegamartAdmin
         },
         {
-          title: "Car showcase ",
-          description:"This create in the NEXT JS and typescript .",
-          links: "https://github.com/MohitMahmudgitup/car_showcase"
+          title: "Ehan app",
+          description:"This is a Ehan app with HTML , CSS , JAVASCRIPT",
+          links: "https://air-ticketing-customer-umber.vercel.app/",
+          skills: ["Next js", "Node.js", "Express", "MongoDB", "Tailwind"],
+          image : allImage.Ehan
         },
         {
-          title: "Social media clone",
-          description:"Next JS project with help of clerk.",
-          links: "https://github.com/MohitMahmudgitup/social_media_clone"
+          title: "Dressenbd",
+          description:"This is a Dressenbd website with HTML , CSS , JAVASCRIPT",
+          links: "https://www.dressenbd.com/",
+          skills: ["Next js", "Node.js", "Express", "MongoDB", "Tailwind"],
+          image : allImage.dressenbd
+        },
+        {
+          title: "Customer Panel",
+          description:"This create in the MARN stack with user authentication.",
+          links: "https://mega-mart-base-customer-panel.vercel.app/",
+          skills: ["Next js", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind"],
+          image : allImage.MegamartCustomer
+        },
+        {
+          title: "Curious",
+          description:"This is a Curious website with HTML , CSS , JAVASCRIPT",
+          links: "https://curious-beijinho-2066ca.netlify.app/",
+          skills: ["HTML", "CSS", "JAVASCRIPT","swiper.js"],
+          image : allImage.curious
+        },
+        {
+          title: "Harif",
+          description:"This is a Harif website with HTML , CSS , JAVASCRIPT",
+          links: "https://frontendharif.onrender.com/",
+          skills: ["react","GSAP","motion","Tailwind"],
+          image : allImage.Harif
         }
-
-      ],
-    },
   ];
   export const liveAPN = [
     {

@@ -7,17 +7,16 @@ import ScrollToTop from "react-scroll-to-top";
 
 
 function App() {
- 
+
 
   return (
-    <>
-    {/* <ReactLenis root> hello */} 
-    <Header/>
-      <main className='w-full min-h-[calc(100vh-160px)] '> 
-      <Outlet />
-      </main>
-      <hr />
-    <Footer/>
+    <main className="h-full">
+      {/* <ReactLenis root> hello */}
+      <Header />
+      <div className='w-full min-h-[calc(100vh-160px)] '>
+        <Outlet />
+      </div>
+      <Footer />
       <ScrollToTop
         smooth
         style={{
@@ -25,21 +24,21 @@ function App() {
           borderRadius: '50%',
           width: '50px',
           height: '50px',
-          boxShadow:'0 0 10px black',
+          boxShadow: '0 0 10px black',
           // right: '20px',
           bottom: '20px',
-          display:"flex",
-          justifyContent:"center",
-          alignItems:"center",
-          color:"black"
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          color: "black"
         }}
       />
 
-    {/* </ReactLenis> */}
-   
+      {/* </ReactLenis> */}
 
 
-    </>
+
+    </main>
   )
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { components } from "../../jsFile/index.js"; // Ensure components are imported correctly
+import { productData } from "../../jsFile/index.js"; // Ensure components are imported correctly
 import "./gitcard.css"
 
 const GitCard = () => {
